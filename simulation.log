@@ -1,0 +1,635 @@
+Page fault occurred for page 0
+Produced item 61 at index 0
+Buffer state (count: 1, in: 1, out: 0): [61, 0, 0, 0, 0]
+Consumed item 61 from index 0
+Buffer state (count: 0, in: 1, out: 1): [61, 0, 0, 0, 0]
+Produced item 14 at index 1
+Buffer state (count: 1, in: 2, out: 1): [61, 14, 0, 0, 0]
+Consumed item 14 from index 1
+Buffer state (count: 0, in: 2, out: 2): [61, 14, 0, 0, 0]
+Produced item 89 at index 2
+Buffer state (count: 1, in: 3, out: 2): [61, 14, 89, 0, 0]
+Produced item 34 at index 3
+Buffer state (count: 2, in: 4, out: 2): [61, 14, 89, 34, 0]
+Consumed item 89 from index 2
+Buffer state (count: 1, in: 4, out: 3): [61, 14, 89, 34, 0]
+Page fault occurred for page 1
+Produced item 83 at index 4
+Buffer state (count: 2, in: 0, out: 3): [61, 14, 89, 34, 83]
+Produced item 59 at index 0
+Buffer state (count: 3, in: 1, out: 3): [59, 14, 89, 34, 83]
+Consumed item 34 from index 3
+Buffer state (count: 2, in: 1, out: 4): [59, 14, 89, 34, 83]
+Produced item 15 at index 1
+Buffer state (count: 3, in: 2, out: 4): [59, 15, 89, 34, 83]
+Produced item 39 at index 2
+Buffer state (count: 4, in: 3, out: 4): [59, 15, 39, 34, 83]
+Consumed item 83 from index 4
+Buffer state (count: 3, in: 3, out: 0): [59, 15, 39, 34, 83]
+Produced item 21 at index 3
+Buffer state (count: 4, in: 4, out: 0): [59, 15, 39, 21, 83]
+Produced item 99 at index 4
+Buffer state (count: 5, in: 0, out: 0): [59, 15, 39, 21, 99]
+Consumed item 59 from index 0
+Buffer state (count: 4, in: 0, out: 1): [59, 15, 39, 21, 99]
+Consumed item 15 from index 1
+Buffer state (count: 3, in: 0, out: 2): [59, 15, 39, 21, 99]
+Consumed item 39 from index 2
+Buffer state (count: 2, in: 0, out: 3): [59, 15, 39, 21, 99]
+Consumed item 21 from index 3
+Buffer state (count: 1, in: 0, out: 4): [59, 15, 39, 21, 99]
+Consumed item 99 from index 4
+Buffer state (count: 0, in: 0, out: 0): [59, 15, 39, 21, 99]
+Page fault occurred for page 0
+Produced item 45 at index 0
+Buffer state (count: 1, in: 1, out: 0): [45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 45 from index 0
+Buffer state (count: 0, in: 1, out: 1): [45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 87 at index 1
+Buffer state (count: 1, in: 2, out: 1): [45, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 87 from index 1
+Buffer state (count: 0, in: 2, out: 2): [45, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 79 at index 2
+Buffer state (count: 1, in: 3, out: 2): [45, 87, 79, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 52 at index 3
+Buffer state (count: 2, in: 4, out: 2): [45, 87, 79, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 79 from index 2
+Buffer state (count: 1, in: 4, out: 3): [45, 87, 79, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 1
+Produced item 91 at index 4
+Buffer state (count: 2, in: 5, out: 3): [45, 87, 79, 52, 91, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 65 at index 5
+Buffer state (count: 3, in: 6, out: 3): [45, 87, 79, 52, 91, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 52 from index 3
+Buffer state (count: 2, in: 6, out: 4): [45, 87, 79, 52, 91, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 97 at index 6
+Buffer state (count: 3, in: 7, out: 4): [45, 87, 79, 52, 91, 65, 97, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 47 at index 7
+Buffer state (count: 4, in: 8, out: 4): [45, 87, 79, 52, 91, 65, 97, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 91 from index 4
+Buffer state (count: 3, in: 8, out: 5): [45, 87, 79, 52, 91, 65, 97, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 2
+Produced item 92 at index 8
+Buffer state (count: 4, in: 9, out: 5): [45, 87, 79, 52, 91, 65, 97, 47, 92, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 99 at index 9
+Buffer state (count: 5, in: 10, out: 5): [45, 87, 79, 52, 91, 65, 97, 47, 92, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 65 from index 5
+Buffer state (count: 4, in: 10, out: 6): [45, 87, 79, 52, 91, 65, 97, 47, 92, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 97 from index 6
+Buffer state (count: 3, in: 10, out: 7): [45, 87, 79, 52, 91, 65, 97, 47, 92, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 47 from index 7
+Buffer state (count: 2, in: 10, out: 8): [45, 87, 79, 52, 91, 65, 97, 47, 92, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 92 from index 8
+Buffer state (count: 1, in: 10, out: 9): [45, 87, 79, 52, 91, 65, 97, 47, 92, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 99 from index 9
+Buffer state (count: 0, in: 10, out: 10): [45, 87, 79, 52, 91, 65, 97, 47, 92, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 0
+Produced item 6 at index 0
+Buffer state (count: 1, in: 1, out: 0): [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 6 from index 0
+Buffer state (count: 0, in: 1, out: 1): [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 70 at index 1
+Buffer state (count: 1, in: 2, out: 1): [6, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 70 from index 1
+Buffer state (count: 0, in: 2, out: 2): [6, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 38 at index 2
+Buffer state (count: 1, in: 3, out: 2): [6, 70, 38, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 7 at index 3
+Buffer state (count: 2, in: 4, out: 2): [6, 70, 38, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 38 from index 2
+Buffer state (count: 1, in: 4, out: 3): [6, 70, 38, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 1
+Produced item 21 at index 4
+Buffer state (count: 2, in: 5, out: 3): [6, 70, 38, 7, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 3 at index 5
+Buffer state (count: 3, in: 6, out: 3): [6, 70, 38, 7, 21, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 7 from index 3
+Buffer state (count: 2, in: 6, out: 4): [6, 70, 38, 7, 21, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 93 at index 6
+Buffer state (count: 3, in: 7, out: 4): [6, 70, 38, 7, 21, 3, 93, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 39 at index 7
+Buffer state (count: 4, in: 8, out: 4): [6, 70, 38, 7, 21, 3, 93, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 21 from index 4
+Buffer state (count: 3, in: 8, out: 5): [6, 70, 38, 7, 21, 3, 93, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 2
+Produced item 34 at index 8
+Buffer state (count: 4, in: 9, out: 5): [6, 70, 38, 7, 21, 3, 93, 39, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 99 at index 9
+Buffer state (count: 5, in: 10, out: 5): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 3 from index 5
+Buffer state (count: 4, in: 10, out: 6): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 2 at index 10
+Buffer state (count: 5, in: 11, out: 6): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 67 at index 11
+Buffer state (count: 6, in: 12, out: 6): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 93 from index 6
+Buffer state (count: 5, in: 12, out: 7): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 3
+Produced item 37 at index 12
+Buffer state (count: 6, in: 13, out: 7): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 0, 0, 0, 0, 0, 0, 0]
+Produced item 29 at index 13
+Buffer state (count: 7, in: 14, out: 7): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 0, 0, 0, 0, 0, 0]
+Consumed item 39 from index 7
+Buffer state (count: 6, in: 14, out: 8): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 0, 0, 0, 0, 0, 0]
+Produced item 13 at index 14
+Buffer state (count: 7, in: 15, out: 8): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 0, 0, 0, 0, 0]
+Produced item 56 at index 15
+Buffer state (count: 8, in: 16, out: 8): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 0, 0, 0, 0]
+Consumed item 34 from index 8
+Buffer state (count: 7, in: 16, out: 9): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 0, 0, 0, 0]
+Page fault occurred for page 4
+Produced item 43 at index 16
+Buffer state (count: 8, in: 17, out: 9): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 0, 0, 0]
+Produced item 88 at index 17
+Buffer state (count: 9, in: 18, out: 9): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 0, 0]
+Consumed item 99 from index 9
+Buffer state (count: 8, in: 18, out: 10): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 0, 0]
+Produced item 79 at index 18
+Buffer state (count: 9, in: 19, out: 10): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 0]
+Produced item 67 at index 19
+Buffer state (count: 10, in: 0, out: 10): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 2 from index 10
+Buffer state (count: 9, in: 0, out: 11): [6, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Produced item 91 at index 0
+Buffer state (count: 10, in: 1, out: 11): [91, 70, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Produced item 36 at index 1
+Buffer state (count: 11, in: 2, out: 11): [91, 36, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 67 from index 11
+Buffer state (count: 10, in: 2, out: 12): [91, 36, 38, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Produced item 80 at index 2
+Buffer state (count: 11, in: 3, out: 12): [91, 36, 80, 7, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Produced item 80 at index 3
+Buffer state (count: 12, in: 4, out: 12): [91, 36, 80, 80, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 37 from index 12
+Buffer state (count: 11, in: 4, out: 13): [91, 36, 80, 80, 21, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Produced item 30 at index 4
+Buffer state (count: 12, in: 5, out: 13): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 29 from index 13
+Buffer state (count: 11, in: 5, out: 14): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 13 from index 14
+Buffer state (count: 10, in: 5, out: 15): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 56 from index 15
+Buffer state (count: 9, in: 5, out: 16): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 43 from index 16
+Buffer state (count: 8, in: 5, out: 17): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 88 from index 17
+Buffer state (count: 7, in: 5, out: 18): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 79 from index 18
+Buffer state (count: 6, in: 5, out: 19): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 67 from index 19
+Buffer state (count: 5, in: 5, out: 0): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 91 from index 0
+Buffer state (count: 4, in: 5, out: 1): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 36 from index 1
+Buffer state (count: 3, in: 5, out: 2): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 80 from index 2
+Buffer state (count: 2, in: 5, out: 3): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 80 from index 3
+Buffer state (count: 1, in: 5, out: 4): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Consumed item 30 from index 4
+Buffer state (count: 0, in: 5, out: 5): [91, 36, 80, 80, 30, 3, 93, 39, 34, 99, 2, 67, 37, 29, 13, 56, 43, 88, 79, 67]
+Page fault occurred for page 0
+Produced item 51 at index 0
+Buffer state (count: 1, in: 1, out: 0): [51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 51 from index 0
+Buffer state (count: 0, in: 1, out: 1): [51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 29 at index 1
+Buffer state (count: 1, in: 2, out: 1): [51, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 29 from index 1
+Buffer state (count: 0, in: 2, out: 2): [51, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 52 at index 2
+Buffer state (count: 1, in: 3, out: 2): [51, 29, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 74 at index 3
+Buffer state (count: 2, in: 4, out: 2): [51, 29, 52, 74, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 52 from index 2
+Buffer state (count: 1, in: 4, out: 3): [51, 29, 52, 74, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 1
+Produced item 15 at index 4
+Buffer state (count: 2, in: 5, out: 3): [51, 29, 52, 74, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 50 at index 5
+Buffer state (count: 3, in: 6, out: 3): [51, 29, 52, 74, 15, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 74 from index 3
+Buffer state (count: 2, in: 6, out: 4): [51, 29, 52, 74, 15, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 46 at index 6
+Buffer state (count: 3, in: 7, out: 4): [51, 29, 52, 74, 15, 50, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 0
+Produced item 11 at index 0
+Buffer state (count: 1, in: 1, out: 0): [11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 11 from index 0
+Buffer state (count: 0, in: 1, out: 1): [11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 49 at index 1
+Buffer state (count: 1, in: 2, out: 1): [11, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 19 at index 2
+Buffer state (count: 2, in: 3, out: 1): [11, 49, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 49 from index 1
+Buffer state (count: 1, in: 3, out: 2): [11, 49, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 82 at index 3
+Buffer state (count: 2, in: 4, out: 2): [11, 49, 19, 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 19 from index 2
+Buffer state (count: 1, in: 4, out: 3): [11, 49, 19, 82, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 1
+Produced item 52 at index 4
+Buffer state (count: 2, in: 5, out: 3): [11, 49, 19, 82, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 54 at index 5
+Buffer state (count: 3, in: 6, out: 3): [11, 49, 19, 82, 52, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 18 at index 6
+Buffer state (count: 4, in: 7, out: 3): [11, 49, 19, 82, 52, 54, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 82 from index 3
+Buffer state (count: 3, in: 7, out: 4): [11, 49, 19, 82, 52, 54, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 20 at index 7
+Buffer state (count: 4, in: 8, out: 4): [11, 49, 19, 82, 52, 54, 18, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 2
+Produced item 15 at index 8
+Buffer state (count: 5, in: 9, out: 4): [11, 49, 19, 82, 52, 54, 18, 20, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 52 from index 4
+Buffer state (count: 4, in: 9, out: 5): [11, 49, 19, 82, 52, 54, 18, 20, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 85 at index 9
+Buffer state (count: 5, in: 10, out: 5): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 66 at index 10
+Buffer state (count: 6, in: 11, out: 5): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 54 from index 5
+Buffer state (count: 5, in: 11, out: 6): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 38 at index 11
+Buffer state (count: 6, in: 12, out: 6): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 3
+Produced item 36 at index 12
+Buffer state (count: 7, in: 13, out: 6): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 18 from index 6
+Buffer state (count: 6, in: 13, out: 7): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 0, 0, 0, 0, 0, 0, 0]
+Produced item 71 at index 13
+Buffer state (count: 7, in: 14, out: 7): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 0, 0, 0, 0, 0, 0]
+Produced item 57 at index 14
+Buffer state (count: 8, in: 15, out: 7): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 0, 0, 0, 0, 0]
+Consumed item 20 from index 7
+Buffer state (count: 7, in: 15, out: 8): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 0, 0, 0, 0, 0]
+Produced item 47 at index 15
+Buffer state (count: 8, in: 16, out: 8): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 0, 0, 0, 0]
+Page fault occurred for page 4
+Produced item 38 at index 16
+Buffer state (count: 9, in: 17, out: 8): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 0, 0, 0]
+Consumed item 15 from index 8
+Buffer state (count: 8, in: 17, out: 9): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 0, 0, 0]
+Produced item 2 at index 17
+Buffer state (count: 9, in: 18, out: 9): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 0, 0]
+Produced item 96 at index 18
+Buffer state (count: 10, in: 19, out: 9): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 0]
+Consumed item 85 from index 9
+Buffer state (count: 9, in: 19, out: 10): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 0]
+Produced item 29 at index 19
+Buffer state (count: 10, in: 0, out: 10): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Consumed item 66 from index 10
+Buffer state (count: 9, in: 0, out: 11): [11, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 58 at index 0
+Buffer state (count: 10, in: 1, out: 11): [58, 49, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 29 at index 1
+Buffer state (count: 11, in: 2, out: 11): [58, 29, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 19 at index 2
+Buffer state (count: 12, in: 3, out: 11): [58, 29, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Consumed item 38 from index 11
+Buffer state (count: 11, in: 3, out: 12): [58, 29, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 82 at index 3
+Buffer state (count: 12, in: 4, out: 12): [58, 29, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Consumed item 36 from index 12
+Buffer state (count: 11, in: 4, out: 13): [58, 29, 19, 82, 52, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 56 at index 4
+Buffer state (count: 12, in: 5, out: 13): [58, 29, 19, 82, 56, 54, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 52 at index 5
+Buffer state (count: 13, in: 6, out: 13): [58, 29, 19, 82, 56, 52, 18, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 84 at index 6
+Buffer state (count: 14, in: 7, out: 13): [58, 29, 19, 82, 56, 52, 84, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Consumed item 71 from index 13
+Buffer state (count: 13, in: 7, out: 14): [58, 29, 19, 82, 56, 52, 84, 20, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 89 at index 7
+Buffer state (count: 14, in: 8, out: 14): [58, 29, 19, 82, 56, 52, 84, 89, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Consumed item 57 from index 14
+Buffer state (count: 13, in: 8, out: 15): [58, 29, 19, 82, 56, 52, 84, 89, 15, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 71 at index 8
+Buffer state (count: 14, in: 9, out: 15): [58, 29, 19, 82, 56, 52, 84, 89, 71, 85, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 43 at index 9
+Buffer state (count: 15, in: 10, out: 15): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 66, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 68 at index 10
+Buffer state (count: 16, in: 11, out: 15): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Consumed item 47 from index 15
+Buffer state (count: 15, in: 11, out: 16): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 38, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 20 at index 11
+Buffer state (count: 16, in: 12, out: 16): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 36, 71, 57, 47, 38, 2, 96, 29]
+Consumed item 38 from index 16
+Buffer state (count: 15, in: 12, out: 17): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 36, 71, 57, 47, 38, 2, 96, 29]
+Produced item 31 at index 12
+Buffer state (count: 16, in: 13, out: 17): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 71, 57, 47, 38, 2, 96, 29]
+Produced item 9 at index 13
+Buffer state (count: 17, in: 14, out: 17): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 57, 47, 38, 2, 96, 29]
+Produced item 63 at index 14
+Buffer state (count: 18, in: 15, out: 17): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 47, 38, 2, 96, 29]
+Consumed item 2 from index 17
+Buffer state (count: 17, in: 15, out: 18): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 47, 38, 2, 96, 29]
+Produced item 38 at index 15
+Buffer state (count: 18, in: 16, out: 18): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 38, 2, 96, 29]
+Consumed item 96 from index 18
+Buffer state (count: 17, in: 16, out: 19): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 38, 2, 96, 29]
+Produced item 23 at index 16
+Buffer state (count: 18, in: 17, out: 19): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 2, 96, 29]
+Produced item 71 at index 17
+Buffer state (count: 19, in: 18, out: 19): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 96, 29]
+Consumed item 29 from index 19
+Buffer state (count: 18, in: 18, out: 0): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 96, 29]
+Consumed item 58 from index 0
+Buffer state (count: 17, in: 18, out: 1): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 96, 29]
+Produced item 10 at index 18
+Buffer state (count: 18, in: 19, out: 1): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 29]
+Produced item 9 at index 19
+Buffer state (count: 19, in: 0, out: 1): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 29 from index 1
+Buffer state (count: 18, in: 0, out: 2): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 19 from index 2
+Buffer state (count: 17, in: 0, out: 3): [58, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Produced item 46 at index 0
+Buffer state (count: 18, in: 1, out: 3): [46, 29, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Produced item 26 at index 1
+Buffer state (count: 19, in: 2, out: 3): [46, 26, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 82 from index 3
+Buffer state (count: 18, in: 2, out: 4): [46, 26, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 56 from index 4
+Buffer state (count: 17, in: 2, out: 5): [46, 26, 19, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Produced item 43 at index 2
+Buffer state (count: 18, in: 3, out: 5): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 52 from index 5
+Buffer state (count: 17, in: 3, out: 6): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 84 from index 6
+Buffer state (count: 16, in: 3, out: 7): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 89 from index 7
+Buffer state (count: 15, in: 3, out: 8): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 71 from index 8
+Buffer state (count: 14, in: 3, out: 9): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 43 from index 9
+Buffer state (count: 13, in: 3, out: 10): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 68 from index 10
+Buffer state (count: 12, in: 3, out: 11): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 20 from index 11
+Buffer state (count: 11, in: 3, out: 12): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 31 from index 12
+Buffer state (count: 10, in: 3, out: 13): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 9 from index 13
+Buffer state (count: 9, in: 3, out: 14): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 63 from index 14
+Buffer state (count: 8, in: 3, out: 15): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 38 from index 15
+Buffer state (count: 7, in: 3, out: 16): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 23 from index 16
+Buffer state (count: 6, in: 3, out: 17): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 71 from index 17
+Buffer state (count: 5, in: 3, out: 18): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 10 from index 18
+Buffer state (count: 4, in: 3, out: 19): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 9 from index 19
+Buffer state (count: 3, in: 3, out: 0): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 46 from index 0
+Buffer state (count: 2, in: 3, out: 1): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 26 from index 1
+Buffer state (count: 1, in: 3, out: 2): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 43 from index 2
+Buffer state (count: 0, in: 3, out: 3): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 82 from index 3
+Buffer state (count: -1, in: 3, out: 4): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 56 from index 4
+Buffer state (count: -2, in: 3, out: 5): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Consumed item 52 from index 5
+Buffer state (count: -3, in: 3, out: 6): [46, 26, 43, 82, 56, 52, 84, 89, 71, 43, 68, 20, 31, 9, 63, 38, 23, 71, 10, 9]
+Page fault occurred for page 0
+Produced item 51 at index 0
+Buffer state (count: 1, in: 1, out: 0): [51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 51 from index 0
+Buffer state (count: 0, in: 1, out: 1): [51, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 7 at index 1
+Buffer state (count: 1, in: 2, out: 1): [51, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 7 from index 1
+Buffer state (count: 0, in: 2, out: 2): [51, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 35 at index 2
+Buffer state (count: 1, in: 3, out: 2): [51, 7, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 68 at index 3
+Buffer state (count: 2, in: 4, out: 2): [51, 7, 35, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 35 from index 2
+Buffer state (count: 1, in: 4, out: 3): [51, 7, 35, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 1
+Produced item 13 at index 4
+Buffer state (count: 2, in: 5, out: 3): [51, 7, 35, 68, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 98 at index 5
+Buffer state (count: 3, in: 6, out: 3): [51, 7, 35, 68, 13, 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 68 from index 3
+Buffer state (count: 2, in: 6, out: 4): [51, 7, 35, 68, 13, 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 25 at index 6
+Buffer state (count: 3, in: 7, out: 4): [51, 7, 35, 68, 13, 98, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 98 at index 7
+Buffer state (count: 4, in: 8, out: 4): [51, 7, 35, 68, 13, 98, 25, 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 13 from index 4
+Buffer state (count: 3, in: 8, out: 5): [51, 7, 35, 68, 13, 98, 25, 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 2
+Produced item 39 at index 8
+Buffer state (count: 4, in: 9, out: 5): [51, 7, 35, 68, 13, 98, 25, 98, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 48 at index 9
+Buffer state (count: 5, in: 10, out: 5): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 98 from index 5
+Buffer state (count: 4, in: 10, out: 6): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 68 at index 10
+Buffer state (count: 5, in: 11, out: 6): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 14 at index 11
+Buffer state (count: 6, in: 12, out: 6): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 25 from index 6
+Buffer state (count: 5, in: 12, out: 7): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 3
+Replaced page 0 with page 3
+Produced item 81 at index 12
+Buffer state (count: 6, in: 13, out: 7): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 0, 0, 0, 0, 0, 0, 0]
+Produced item 16 at index 13
+Buffer state (count: 7, in: 14, out: 7): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 0, 0, 0, 0, 0, 0]
+Consumed item 98 from index 7
+Buffer state (count: 6, in: 14, out: 8): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 0, 0, 0, 0, 0, 0]
+Produced item 32 at index 14
+Buffer state (count: 7, in: 15, out: 8): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 0, 0, 0, 0, 0]
+Produced item 49 at index 15
+Buffer state (count: 8, in: 16, out: 8): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 0, 0, 0, 0]
+Consumed item 39 from index 8
+Buffer state (count: 7, in: 16, out: 9): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 0, 0, 0, 0]
+Page fault occurred for page 4
+Replaced page 1 with page 4
+Produced item 27 at index 16
+Buffer state (count: 8, in: 17, out: 9): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 0, 0, 0]
+Produced item 40 at index 17
+Buffer state (count: 9, in: 18, out: 9): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 0, 0]
+Consumed item 48 from index 9
+Buffer state (count: 8, in: 18, out: 10): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 0, 0]
+Produced item 46 at index 18
+Buffer state (count: 9, in: 19, out: 10): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 0]
+Produced item 25 at index 19
+Buffer state (count: 10, in: 0, out: 10): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 68 from index 10
+Buffer state (count: 9, in: 0, out: 11): [51, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Page fault occurred for page 0
+Replaced page 2 with page 0
+Produced item 34 at index 0
+Buffer state (count: 10, in: 1, out: 11): [34, 7, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Produced item 97 at index 1
+Buffer state (count: 11, in: 2, out: 11): [34, 97, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Page fault occurred for page 2
+Replaced page 3 with page 2
+Consumed item 14 from index 11
+Buffer state (count: 10, in: 2, out: 12): [34, 97, 35, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Produced item 84 at index 2
+Buffer state (count: 11, in: 3, out: 12): [34, 97, 84, 68, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Produced item 12 at index 3
+Buffer state (count: 12, in: 4, out: 12): [34, 97, 84, 12, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Page fault occurred for page 3
+Replaced page 4 with page 3
+Consumed item 81 from index 12
+Buffer state (count: 11, in: 4, out: 13): [34, 97, 84, 12, 13, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Page fault occurred for page 1
+Replaced page 0 with page 1
+Produced item 0 at index 4
+Buffer state (count: 12, in: 5, out: 13): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 16 from index 13
+Buffer state (count: 11, in: 5, out: 14): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 32 from index 14
+Buffer state (count: 10, in: 5, out: 15): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 49 from index 15
+Buffer state (count: 9, in: 5, out: 16): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Page fault occurred for page 4
+Replaced page 2 with page 4
+Consumed item 27 from index 16
+Buffer state (count: 8, in: 5, out: 17): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 40 from index 17
+Buffer state (count: 7, in: 5, out: 18): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 46 from index 18
+Buffer state (count: 6, in: 5, out: 19): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 25 from index 19
+Buffer state (count: 5, in: 5, out: 0): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Page fault occurred for page 0
+Replaced page 3 with page 0
+Consumed item 34 from index 0
+Buffer state (count: 4, in: 5, out: 1): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 97 from index 1
+Buffer state (count: 3, in: 5, out: 2): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 84 from index 2
+Buffer state (count: 2, in: 5, out: 3): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 12 from index 3
+Buffer state (count: 1, in: 5, out: 4): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Consumed item 0 from index 4
+Buffer state (count: 0, in: 5, out: 5): [34, 97, 84, 12, 0, 98, 25, 98, 39, 48, 68, 14, 81, 16, 32, 49, 27, 40, 46, 25]
+Page fault occurred for page 0
+Produced item 76 at index 0
+Buffer state (count: 1, in: 1, out: 0): [76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 76 from index 0
+Buffer state (count: 0, in: 1, out: 1): [76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 45 at index 1
+Buffer state (count: 1, in: 2, out: 1): [76, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 45 from index 1
+Buffer state (count: 0, in: 2, out: 2): [76, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 3 at index 2
+Buffer state (count: 1, in: 3, out: 2): [76, 45, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 1 at index 3
+Buffer state (count: 2, in: 4, out: 2): [76, 45, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 3 from index 2
+Buffer state (count: 1, in: 4, out: 3): [76, 45, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 1
+Produced item 69 at index 4
+Buffer state (count: 2, in: 5, out: 3): [76, 45, 3, 1, 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 98 at index 5
+Buffer state (count: 3, in: 6, out: 3): [76, 45, 3, 1, 69, 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 1 from index 3
+Buffer state (count: 2, in: 6, out: 4): [76, 45, 3, 1, 69, 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 42 at index 6
+Buffer state (count: 3, in: 7, out: 4): [76, 45, 3, 1, 69, 98, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 1 at index 7
+Buffer state (count: 4, in: 8, out: 4): [76, 45, 3, 1, 69, 98, 42, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 69 from index 4
+Buffer state (count: 3, in: 8, out: 5): [76, 45, 3, 1, 69, 98, 42, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 2
+Produced item 34 at index 8
+Buffer state (count: 4, in: 9, out: 5): [76, 45, 3, 1, 69, 98, 42, 1, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 65 at index 9
+Buffer state (count: 5, in: 10, out: 5): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 98 from index 5
+Buffer state (count: 4, in: 10, out: 6): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 46 at index 10
+Buffer state (count: 5, in: 11, out: 6): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Produced item 22 at index 11
+Buffer state (count: 6, in: 12, out: 6): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 0, 0, 0, 0, 0, 0, 0, 0]
+Page fault occurred for page 3
+Replaced page 0 with page 3
+Produced item 2 at index 12
+Buffer state (count: 7, in: 13, out: 6): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 0, 0, 0, 0, 0, 0, 0]
+Consumed item 42 from index 6
+Buffer state (count: 6, in: 13, out: 7): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 0, 0, 0, 0, 0, 0, 0]
+Produced item 31 at index 13
+Buffer state (count: 7, in: 14, out: 7): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 0, 0, 0, 0, 0, 0]
+Consumed item 1 from index 7
+Buffer state (count: 6, in: 14, out: 8): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 0, 0, 0, 0, 0, 0]
+Produced item 26 at index 14
+Buffer state (count: 7, in: 15, out: 8): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 0, 0, 0, 0, 0]
+Produced item 6 at index 15
+Buffer state (count: 8, in: 16, out: 8): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 0, 0, 0, 0]
+Consumed item 34 from index 8
+Buffer state (count: 7, in: 16, out: 9): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 0, 0, 0, 0]
+Page fault occurred for page 4
+Replaced page 1 with page 4
+Produced item 70 at index 16
+Buffer state (count: 8, in: 17, out: 9): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 0, 0]
+Produced item 0 at index 17
+Buffer state (count: 9, in: 18, out: 9): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 0, 0]
+Consumed item 65 from index 9
+Buffer state (count: 8, in: 18, out: 10): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 0, 0]
+Produced item 12 at index 18
+Buffer state (count: 9, in: 19, out: 10): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 0]
+Produced item 64 at index 19
+Buffer state (count: 10, in: 0, out: 10): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 46 from index 10
+Buffer state (count: 9, in: 0, out: 11): [76, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Page fault occurred for page 0
+Replaced page 2 with page 0
+Produced item 51 at index 0
+Buffer state (count: 10, in: 1, out: 11): [51, 45, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Produced item 78 at index 1
+Buffer state (count: 11, in: 2, out: 11): [51, 78, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Page fault occurred for page 2
+Replaced page 3 with page 2
+Consumed item 22 from index 11
+Buffer state (count: 10, in: 2, out: 12): [51, 78, 3, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Produced item 51 at index 2
+Buffer state (count: 11, in: 3, out: 12): [51, 78, 51, 1, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Produced item 70 at index 3
+Buffer state (count: 12, in: 4, out: 12): [51, 78, 51, 70, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Page fault occurred for page 3
+Replaced page 4 with page 3
+Consumed item 2 from index 12
+Buffer state (count: 11, in: 4, out: 13): [51, 78, 51, 70, 69, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Page fault occurred for page 1
+Replaced page 0 with page 1
+Produced item 28 at index 4
+Buffer state (count: 12, in: 5, out: 13): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 31 from index 13
+Buffer state (count: 11, in: 5, out: 14): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 26 from index 14
+Buffer state (count: 10, in: 5, out: 15): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 6 from index 15
+Buffer state (count: 9, in: 5, out: 16): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Page fault occurred for page 4
+Replaced page 2 with page 4
+Consumed item 70 from index 16
+Buffer state (count: 8, in: 5, out: 17): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 0 from index 17
+Buffer state (count: 7, in: 5, out: 18): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 12 from index 18
+Buffer state (count: 6, in: 5, out: 19): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 64 from index 19
+Buffer state (count: 5, in: 5, out: 0): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Page fault occurred for page 0
+Replaced page 3 with page 0
+Consumed item 51 from index 0
+Buffer state (count: 4, in: 5, out: 1): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 78 from index 1
+Buffer state (count: 3, in: 5, out: 2): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 51 from index 2
+Buffer state (count: 2, in: 5, out: 3): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 70 from index 3
+Buffer state (count: 1, in: 5, out: 4): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
+Consumed item 28 from index 4
+Buffer state (count: 0, in: 5, out: 5): [51, 78, 51, 70, 28, 98, 42, 1, 34, 65, 46, 22, 2, 31, 26, 6, 70, 0, 12, 64]
